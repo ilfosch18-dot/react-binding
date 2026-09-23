@@ -1,4 +1,5 @@
 import { useState } from "react"
+import AlignTxt from "./ui/AlignTxt";
 
 export default function Main() {
 
@@ -37,6 +38,10 @@ export default function Main() {
 <button className={color} onClick={handleColorChange}>Cambia colore</button>
 
 <hr className="border border-danger border-2 opacity-50"></hr>
+</section>
+<section>
+
+<AlignTxt />
 </section>
 </main>
   )
