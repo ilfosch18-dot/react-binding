@@ -15,8 +15,6 @@ function alignCenter() {
 function alignEnd() {
   setAlignText("text-end");
 }
-
-
   return (
     <main className="text-center">
 
@@ -29,6 +27,8 @@ function alignEnd() {
 <button className="btn btn-primary m-3" onClick={alignStart}>Sinistra</button>
 <button className="btn btn-warning m-3" onClick={alignCenter}>Centro</button>
 <button className="btn btn-success m-3" onClick={alignEnd}>Destra</button> 
+<hr className="border border-danger border-2 opacity-50"></hr>
+
 </main>
   )
 };

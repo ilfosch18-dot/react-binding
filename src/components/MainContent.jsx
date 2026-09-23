@@ -1,5 +1,6 @@
 import { useState } from "react"
 import AlignTxt from "./ui/AlignTxt";
+import LanguageButton from "./ui/LanguageButton";
 
 export default function Main() {
 
@@ -42,6 +43,7 @@ export default function Main() {
 <section>
 
 <AlignTxt />
+<LanguageButton />
 </section>
 </main>
   )
