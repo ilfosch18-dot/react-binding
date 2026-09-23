@@ -12,6 +12,14 @@ export default function Main() {
     setFirstCount(0);
   }
 
+  // SECONDO ESERCIZIO
+  const [color, setColor] = useState("btn btn-primary")
+
+  function handleColorChange(){
+  setColor(color === "btn btn-primary" ? "btn btn-success" : "btn btn-primary");  
+  }
+
+  // TERZO ESERCIZIO
   return (
     <main className="text-center">
       <h4>Implemento un contatore numerico incrementabile via bottone 
@@ -21,7 +29,16 @@ export default function Main() {
   <p className="fw-bold fs-1 my-5 text-success">{firstCount}</p>
 <button className="btn btn-primary m-3" onClick={handleCounter}>Incrementa</button>
 <button className="btn btn-warning" onClick={handleAzzeramento}>Azzera</button>
-<hr class="border border-danger border-2 opacity-50"></hr>
+<hr className="border border-danger border-2 opacity-50"></hr>
+<section>
+  <h4 className="my-5"> Creo un bottone che alterni la propria classe stilistica (es. da primary a success) ad ogni click, 
+    mutandone dinamicamente l'aspetto grafico.
+</h4>
+<button className={color} onClick={handleColorChange}>Cambia colore</button>
+
+
+<hr className="border border-danger border-2 opacity-50"></hr>
+</section>
 </section>
 </main>
   )
