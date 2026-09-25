@@ -8,6 +8,8 @@ import Tag from "./ui/Tag";
 import Union from "./ui/Union";
 import ButtonDisabled from "./ui/ButtonDisabled";
 import BoldTxt from "./ui/BoldTxt";
+import RadioButton from "./ui/RadioButton";
+import PrezzoProdotto from "./ui/PrezzoProdotto";
 
 export default function Main() {
 
@@ -58,6 +60,8 @@ export default function Main() {
 <Union />
 <ButtonDisabled />
 <BoldTxt />
+<RadioButton />
+<PrezzoProdotto />
 </section>
 </main>
   )
