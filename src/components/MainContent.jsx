@@ -5,6 +5,9 @@ import ListaAttivita from "./ui/ListaAttivita";
 import Counter from "./ui/Counter";
 import Filtered from "./ui/Filtered";
 import Tag from "./ui/Tag";
+import Union from "./ui/Union";
+import ButtonDisabled from "./ui/ButtonDisabled";
+import BoldTxt from "./ui/BoldTxt";
 
 export default function Main() {
 
@@ -52,6 +55,9 @@ export default function Main() {
 <Counter />
 <Filtered />
 <Tag />
+<Union />
+<ButtonDisabled />
+<BoldTxt />
 </section>
 </main>
   )
