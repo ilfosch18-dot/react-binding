@@ -11,6 +11,7 @@ import BoldTxt from "./ui/BoldTxt";
 import RadioButton from "./ui/RadioButton";
 import PrezzoProdotto from "./ui/PrezzoProdotto";
 import CaratteriRimanenti from "./ui/CaratteriRimanenti";
+import AvvisiArea from "./ui/AvvisiArea.jsx"
 
 export default function Main() {
 
@@ -64,6 +65,7 @@ export default function Main() {
 <RadioButton />
 <PrezzoProdotto />
 <CaratteriRimanenti />
+<AvvisiArea />
 </section>
 </main>
   )

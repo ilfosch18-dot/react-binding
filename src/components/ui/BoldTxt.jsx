@@ -14,10 +14,9 @@ const [textBold] = useState('Testo che cambia stile');
       </h4>
       </div>
        <div className="d-flex justify-content-center align-items-end gap-2 container">
-            <p>Applico o rimuovo uno stile specifico al testo:
-                {/******************************************* condizione ? valoreSeVero : valoreSeFalso */}
+            <p>Applico o rimuovo uno stile specifico al testo:</p>
+                            {/******************************************* condizione ? valoreSeVero : valoreSeFalso */}
                 <h1 className={`text-success text-uppercase mb-0 ${bold ? "fw-bold" : ""}`}>{textBold}</h1>
-                </p>
             </div>
 <div className="py-5">
       <input id="text-bold-acceptance" className="form-check-input" type="checkbox" checked={bold} onChange={e => setBold(e.target.checked)}/>
