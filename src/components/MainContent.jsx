@@ -1,6 +1,7 @@
 import { useState } from "react"
 import AlignTxt from "./ui/AlignTxt";
 import LanguageButton from "./ui/LanguageButton";
+import ListaAttivita from "./ui/ListaAttivita";
 
 export default function Main() {
 
@@ -44,6 +45,7 @@ export default function Main() {
 
 <AlignTxt />
 <LanguageButton />
+<ListaAttivita />
 </section>
 </main>
   )
