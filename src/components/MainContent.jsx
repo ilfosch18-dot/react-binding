@@ -10,6 +10,7 @@ import ButtonDisabled from "./ui/ButtonDisabled";
 import BoldTxt from "./ui/BoldTxt";
 import RadioButton from "./ui/RadioButton";
 import PrezzoProdotto from "./ui/PrezzoProdotto";
+import CaratteriRimanenti from "./ui/CaratteriRimanenti";
 
 export default function Main() {
 
@@ -62,6 +63,7 @@ export default function Main() {
 <BoldTxt />
 <RadioButton />
 <PrezzoProdotto />
+<CaratteriRimanenti />
 </section>
 </main>
   )
