@@ -2,6 +2,9 @@ import { useState } from "react"
 import AlignTxt from "./ui/AlignTxt";
 import LanguageButton from "./ui/LanguageButton";
 import ListaAttivita from "./ui/ListaAttivita";
+import Counter from "./ui/Counter";
+import Filtered from "./ui/Filtered";
+import Tag from "./ui/Tag";
 
 export default function Main() {
 
@@ -46,6 +49,9 @@ export default function Main() {
 <AlignTxt />
 <LanguageButton />
 <ListaAttivita />
+<Counter />
+<Filtered />
+<Tag />
 </section>
 </main>
   )

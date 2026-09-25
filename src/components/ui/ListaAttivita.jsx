@@ -28,6 +28,8 @@ export default function ListaAttivita() {
           </li>
         ))}
       </ul>
+      <hr className="border border-danger border-2 opacity-50"></hr>
+
     </section>
   );
 }
